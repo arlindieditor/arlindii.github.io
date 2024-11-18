@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arlindi's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <a href="#"><div class="logo">Arlindi.</div></a>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger-btn">&#9776;</button> 
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Transform Your Vision Into Reality</h1>
+            <p>Hi, I'm <span class="highlight">Arlindi</span> and I am dedicated to crafting visually stunning and engaging content that captivates audiences.</p>
+            <a href="#projects" class="btn-primary">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <!-- About Section -->
+<section id="about" class="about">
+    <div class="about-content">
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+                Hello, I am an innovative and results-driven video editor, graphic designer, and copywriter. I'm passionate about creating cohesive, compelling content that inspires, informs, and drives results.
+            </p>
+            <a href="#projects" class="btn-primary">My Projects</a>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <h3>Video Editing</h3>
+                    <p>Adobe Premiere Pro, Final Cut Pro, DaVinci Resolve</p>
+                </div>
+                <div class="skill">
+                    <h3>Graphic Design</h3>
+                    <p>Adobe Photoshop, Adobe Illustrator, Canva</p>
+                </div>
+                <div class="skill">
+                    <h3>Copywriting</h3>
+                    <p>Content creation, SEO, storytelling</p>
+                </div>
+                <div class="skill">
+                    <h3>Thumbnail Design</h3>
+                    <p>Eye-catching and clickable designs for social media and YouTube</p>
+                </div>
+                <div class="skill">
+                    <h3>Project Management</h3>
+                    <p>Time management, multitasking, attention to detail</p>
+                </div>
+                <div class="skill">
+                    <h3>Technical Skills</h3>
+                    <p>Proficient in both Mac and Windows operating systems</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <img src="images/photo1.jpg" alt="Work 1">
+                </div>
+                <div class="project-card">
+                    <img src="images/photo2.jpg" alt="Work 1">
+                </div>
+                <div class="project-card">
+                    <img src="images/photo3.png" alt="Work 1">
+                </div>
+                <div class="project-card">
+                    <img src="images/photo4.jpeg" alt="Work 1">
+                </div>
+                <div class="project-card">
+                    <img src="images/photo5.png" alt="Work 1">
+                </div>
+                <div class="project-card">
+                    <img src="images/photo6.png" alt="Work 3">
+                </div>
+                <div class="project-card">
+                    <img src="images/photo7.jpg" alt="Work 3">
+                </div>
+                <div class="project-card">
+                    <video src="images/video2.mp4" controls></video>
+                </div>
+                <div class="project-card">
+                    <video src="images/video3.mp4" controls></video>
+                </div>
+                <div class="project-card">
+                    <video src="images/video4.mp4" controls></video>
+                </div>
+                <div class="project-card">
+                    <video src="images/video5.mp4" controls></video>
+                </div>
+                <div class="project-card">
+                    <video src="images/video6.mp4" controls></video>
+                </div>
+                <div class="project-card">
+                    <video src="images/video7.mp4" controls></video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="https://formspree.io/f/xdkodelg" method="POST" class="contact-form">
+                <input 
+                    type="text" 
+                    name="name" 
+                    placeholder="Your Name" 
+                    required 
+                />
+                <input 
+                    type="email" 
+                    name="email" 
+                    placeholder="Your Email" 
+                    required 
+                />
+                <textarea 
+                    name="message" 
+                    placeholder="Your Message" 
+                    rows="6" 
+                    required 
+                ></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Arlindi. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
